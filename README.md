@@ -34,7 +34,7 @@ Small multiples (density + smooth trend) for cohort orientation.
 ---
 
 ## 🧠 Methods at a Glance
-- **Quadratic hazard:** \(\log h(x)=\beta_0+\beta_1 x+\beta_2 x^2\). The argmin \(-\beta_1/(2\beta_2)\) is an interpretable risk target for optimization.
+- **Quadratic hazard:** $\log h(x)=\beta_0+\beta_1 x+\beta_2 x^2$. The argmin $-\beta_1/(2\beta_2)$ is an interpretable risk target for optimization.
 - **Temporal CNN + Mask:** learnable mask highlights influential **features × lags** used by the CNN, yielding stable, in-model importance.
 
 ---
