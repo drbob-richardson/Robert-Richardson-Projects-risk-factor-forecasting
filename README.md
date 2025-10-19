@@ -4,7 +4,6 @@ This project illustrates two complementary ideas for cardiovascular event foreca
 1) a **quadratic hazard** view (SDE-inspired Bayesian hierarchy) that makes risk-factor *optimization* interpretable, and  
 2) a **Temporal CNN with an input mask** that provides in-model importance across features × time.
 
-
 ---
 
 ##  Highlights (Visuals)
