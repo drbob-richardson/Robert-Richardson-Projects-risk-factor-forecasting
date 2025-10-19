@@ -11,7 +11,7 @@ This project illustrates two complementary ideas for cardiovascular event foreca
 ### 1) Quadratic Hazard (Theoretical Optimization)
 A simple illustration of a quadratic log-hazard in systolic BP with an **argmin** (the “risk-reducing target”).
 
-![Quadratic hazard](./images/03_quadratic_hazard.png)
+![Quadratic hazard](./images/quadratic_hazard.png)
 
 *Why it matters:* communicates how a Bayesian hierarchical SDE framework can **optimize modifiable factors** toward a target that minimizes failure risk.
 
@@ -20,7 +20,7 @@ A simple illustration of a quadratic log-hazard in systolic BP with an **argmin*
 ### 2) Temporal CNN Input-Mask (Theoretical)
 A synthetic heatmap showing **feature × lookback** importance the model could learn (e.g., strongest recent attention to BP, mid-term to smoking, etc.).
 
-![Temporal CNN mask](./images/05_mask_heatmap.png)
+![Temporal CNN mask](./images/mask_heatmap.png)
 
 *Why it matters:* conveys **in-model** importance (not post-hoc) and how your masked-input CNN drives forecasts.
 
@@ -29,7 +29,7 @@ A synthetic heatmap showing **feature × lookback** importance the model could l
 ### 3) Population Patterns: Vitals vs Age
 Small multiples (density + smooth trend) for cohort orientation.
 
-![Vitals vs age](./images/07_vitals_vs_age.png)
+![Vitals vs age](./images/vitals_vs_age.png)
 
 ---
 
